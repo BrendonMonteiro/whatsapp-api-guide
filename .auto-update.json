@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "frequency": "weekly",
+  "updateTypes": {
+    "policies": true,
+    "translations": true,
+    "documentation": true,
+    "examples": true
+  },
+  "languages": {
+    "primary": "he",
+    "secondary": "en",
+    "autoTranslate": true
+  },
+  "security": {
+    "checkVulnerabilities": true,
+    "autoFixCritical": true,
+    "notifyOnVulnerabilities": true
+  },
+  "content": {
+    "autoUpdatePolicies": true,
+    "autoUpdateBestPractices": true,
+    "autoUpdateExamples": true
+  },
+  "notifications": {
+    "email": true,
+    "github": true,
+    "slack": false
+  },
+  "schedule": {
+    "day": "Monday",
+    "time": "02:00 UTC"
+  },
+  "metadata": {
+    "lastUpdate": "2026-01-24T14:15:00Z",
+    "version": "1.0.0",
+    "maintainer": "Aviel.AI"
+  }
+}
