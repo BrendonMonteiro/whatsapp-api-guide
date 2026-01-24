@@ -1,3 +1,10 @@
+![Stars](https://img.shields.io/github/stars/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Stars)
+![Forks](https://img.shields.io/github/forks/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Forks)
+![Watchers](https://img.shields.io/github/watchers/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Watchers)
+![Issues](https://img.shields.io/github/issues/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Issues)
+![License](https://img.shields.io/github/license/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=License)
+![Language](https://img.shields.io/github/languages/top/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Language)
+
 # מדריך מקיף לשימוש ב-WhatsApp Business API: איך להימנע מחסימת חשבון
 
 ## מבוא
