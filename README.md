@@ -130,3 +130,11 @@ BSPs הם חברות צד-שלישי שקיבלו הסמכה רשמית ממטא
 [3] [Warm-Up Strategy for New WhatsApp Business Platform Accounts](https://www.wuseller.com/blog/warm-up-strategy-for-new-whatsapp-business-platform-accounts-anti-ban-tactics) - מדריך מפורט לאסטרטגיית חימום חשבון.
 
 [4] [WhatsApp Business Messaging Policy](https://www.whatsapp.com/legal/business-policy/) - מדיניות השימוש הרשמית של WhatsApp Business.
+
+---
+
+## License & Attribution
+
+Developed by **Aviel.AI** - כל הזכויות שמורות © 2026
+
+This guide is provided as an educational resource to help businesses and individuals safely integrate WhatsApp Business API while maintaining compliance with Meta's policies and best practices.
