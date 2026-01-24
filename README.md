@@ -145,3 +145,82 @@ BSPs הם חברות צד-שלישי שקיבלו הסמכה רשמית ממטא
 Developed by **Aviel.AI** - כל הזכויות שמורות © 2026
 
 This guide is provided as an educational resource to help businesses and individuals safely integrate WhatsApp Business API while maintaining compliance with Meta's policies and best practices.
+
+
+## 🌍 Languages & Localization
+
+This guide is available in multiple languages:
+
+- **עברית (Hebrew)** - מדריך מלא בעברית עם תמיכה RTL מלאה
+- **English** - Complete guide in English with full LTR support
+- **Auto-Update System** - Content is automatically updated with the latest WhatsApp policies and best practices
+
+### Language Support Details
+
+- **Hebrew (עברית)**: Full RTL (Right-to-Left) support with proper text direction, accessibility features, and native Hebrew terminology
+- **English**: Standard LTR (Left-to-Right) support with comprehensive documentation
+- **Automatic Translation**: Key sections are automatically translated and updated when WhatsApp policies change
+
+---
+
+## 📋 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+### MIT License Summary
+
+- ✅ **Free to use** - You can use this guide for personal and commercial purposes
+- ✅ **Free to modify** - You can modify and adapt the content to your needs
+- ✅ **Free to distribute** - You can share this guide with others
+- ✅ **Attribution required** - Please credit Aviel.AI when using or sharing this guide
+- ✅ **No warranty** - This guide is provided "as is" without any warranty
+
+### How to Share
+
+When sharing this guide, please include the following attribution:
+
+```
+Guide: WhatsApp API Safe Integration Guide
+Author: Aviel.AI
+License: MIT
+Repository: https://github.com/Avielzi/whatsapp-api-guide
+```
+
+---
+
+## 🔄 Auto-Update System
+
+This repository includes an automatic update system that:
+
+- ✅ Checks for WhatsApp policy updates weekly
+- ✅ Updates best practices based on community feedback
+- ✅ Maintains translations in Hebrew and English
+- ✅ Logs all changes for transparency
+- ✅ Notifies contributors of important updates
+
+### Contributing
+
+We welcome contributions! If you have:
+
+- **New insights** about WhatsApp API safety
+- **Translations** to other languages
+- **Bug reports** or corrections
+- **Success stories** to share
+
+Please open an issue or submit a pull request on [GitHub](https://github.com/Avielzi/whatsapp-api-guide).
+
+---
+
+## 📞 Support & Contact
+
+For questions or support:
+
+- 📧 **GitHub Issues**: [Report an issue](https://github.com/Avielzi/whatsapp-api-guide/issues)
+- 💬 **Discussions**: [Join the discussion](https://github.com/Avielzi/whatsapp-api-guide/discussions)
+- 🌐 **Website**: [Interactive Guide](https://whatsapp-api-guide.manus.space)
+
+---
+
+**Last Updated**: January 24, 2026  
+**Version**: 1.0.0  
+**Maintained by**: Aviel.AI
