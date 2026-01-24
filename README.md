@@ -1,9 +1,14 @@
-![Stars](https://img.shields.io/github/stars/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Stars)
-![Forks](https://img.shields.io/github/forks/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Forks)
-![Watchers](https://img.shields.io/github/watchers/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Watchers)
-![Issues](https://img.shields.io/github/issues/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Issues)
-![License](https://img.shields.io/github/license/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=License)
-![Language](https://img.shields.io/github/languages/top/Avielzi/whatsapp-api-guide?style=flat-square&logo=github&label=Language)
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/Avielzi/whatsapp-api-guide?style=for-the-badge&logo=github&color=007acc&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide/stargazers)
+[![Forks](https://img.shields.io/github/forks/Avielzi/whatsapp-api-guide?style=for-the-badge&logo=github&color=007acc&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide/network/members)
+[![Issues](https://img.shields.io/github/issues/Avielzi/whatsapp-api-guide?style=for-the-badge&logo=github&color=2ea44f&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide/issues)
+[![License](https://img.shields.io/github/license/Avielzi/whatsapp-api-guide?style=for-the-badge&logo=github&color=dfb317&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide/blob/master/LICENSE)
+
+[![Hebrew](https://img.shields.io/badge/Language-Hebrew-007acc?style=for-the-badge&logo=google-translate&logoColor=white&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide#-%D7%A2%D7%91%D7%A8%D7%99%D7%AA-hebrew)
+[![English](https://img.shields.io/badge/Language-English-007acc?style=for-the-badge&logo=google-translate&logoColor=white&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide#english)
+
+</div>
 
 # מדריך מקיף לשימוש ב-WhatsApp Business API: איך להימנע מחסימת חשבון
 
