@@ -1,12 +1,14 @@
 <div align="center">
 
-
 [![License](https://img.shields.io/github/license/Avielzi/whatsapp-api-guide?style=for-the-badge&logo=github&color=dfb317&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide/blob/master/LICENSE)
 
-[![Hebrew](https://img.shields.io/badge/Language-Hebrew-007acc?style=for-the-badge&logo=google-translate&logoColor=white&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide#-%D7%A2%D7%91%D7%A8%D7%99%D7%AA-hebrew)
-[![English](https://img.shields.io/badge/Language-English-007acc?style=for-the-badge&logo=google-translate&logoColor=white&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide#english)
+[**עברית**](#-עברית-hebrew) | [**English**](#english)
 
 </div>
+
+---
+
+# 🇮🇱 עברית (Hebrew)
 
 # מדריך מקיף לשימוש ב-WhatsApp Business API: איך להימנע מחסימת חשבון
 
@@ -26,7 +28,7 @@
 
 *   **שליחת ספאם:** שליחת הודעות לא רצויות או הודעות בתדירות גבוהה מדי.
 *   **סיווג שגוי של תבניות הודעה (Templates):** שימוש בתבנית שיווקית למטרת שירות לקוחות, או להיפך.
-*   **תוכן אסור:** קידום או מכירה של מוצרים ושירותים מקטגוריות מסוכנות כמו תוכן למבוגרים, אלכוהול וטבק, סמים, הימורים ותוספי תזונה לא בטוחים.
+*   **תוכן אסור:** קידום או מכירה של מוצרים ושירותים מקטגוריות מסוכנות כמו תוכן למבוגרים, אלכוהול וטבק, סמים, הימולים ותוספי תזונה לא בטוחים.
 *   **משוב שלילי ממשתמשים:** אם משתמשים רבים חוסמים את המספר שלכם או מדווחים עליו כספאם, הדבר יפגע קשות ב"דירוג האיכות" של החשבון.
 
 ### ענישה הדרגתית
@@ -41,128 +43,51 @@
 | **נעילת חשבון** | לא מוגבל בזמן | חסימה מלאה של שליחת הודעות, ניתנת להסרה רק באמצעות ערעור מוצלח. |
 | **השבתה לצמיתות** | קבוע | החשבון מוסר לצמיתות מהפלטפורמה. |
 
-במקרים של הפרות חמורות כמו ניצול ילדים, הונאות, טרור או מכירת סמים לא חוקיים, וואטסאפ תסיר את החשבון מהפלטפורמה באופן מיידי וללא אזהרה מוקדמת [1].
-
-## שתי דרכים להתחבר: API ישיר מול ספק פתרונות (BSP)
-
-קיימות שתי גישות עיקריות לחיבור לפלטפורמת WhatsApp Business: התממשקות ישירה ל-Cloud API של מטא, או עבודה דרך ספק פתרונות עסקי (Business Solution Provider - BSP) רשמי. הבחירה בין שתי הדרכים משפיעה באופן משמעותי על רמת המורכבות, העלויות והסיכון הכרוך בתהליך.
-
-### התממשקות ישירה ל-Cloud API של מטא
-
-גישה זו, המכונה לעיתים "עשה זאת בעצמך" (DIY), מעניקה למפתח שליטה מלאה על התהליך. היא כוללת הגדרת חשבון מפתחים במטא, יצירת אפליקציה, אימות העסק וניהול ישיר של כל התקשורת מול ה-API. למרות שהיא נראית אטרקטיבית בשל עלויות תיווך נמוכות, היא טומנת בחובה אתגרים רבים, במיוחד למשתמשים חדשים.
-
-> מפתחים מדווחים כי תהליך האימות העסקי של מטא יכול להיות מורכב ומסורבל, התיעוד לא תמיד ברור, וקיים סיכון גבוה לחסימת מספר הטלפון כבר בשלבי הבדיקה הראשוניים [2].
-
-### שימוש בספק פתרונות עסקי (BSP)
-
-BSPs הם חברות צד-שלישי שקיבלו הסמכה רשמית ממטא לספק שירותי WhatsApp Business API. חברות אלו פיתחו פלטפורמות המפשטות את תהליך ההתחברות, ניהול החשבון ושליחת ההודעות. הן משמשות כמתווכות, ומספקות תמיכה טכנית, ממשקי ניהול נוחים וליווי בתהליך אישור תבניות ההודעה.
-
-### טבלת השוואה
-
-| קריטריון | התממשקות ישירה (Cloud API) | שימוש בספק (BSP) |
-| :--- | :--- | :--- |
-| **מורכבות טכנית** | גבוהה מאוד. דורשת ידע בפיתוח ובהתמודדות עם APIs. | נמוכה. ה-BSP מספק ממשק נוח וכלים מובנים. |
-| **תהליך אימות** | מורכב ומסורבל. המפתח אחראי על כל התהליך מול מטא. | פשוט ומודרך. ה-BSP מלווה את המשתמש שלב אחר שלב. |
-| **סיכון לחסימה** | **גבוה**, במיוחד למשתמשים חדשים ובשלבי הבדיקה. | **נמוך**. ה-BSPs מנוסים במדיניות ומסייעים במניעת טעויות. |
-| **תמיכה טכנית** | מוגבלת לתיעוד הרשמי ופורומים קהילתיים. | תמיכה מלאה מה-BSP, כולל סיוע בפתרון בעיות. |
-| **אישור תבניות** | תהליך עצמאי מול מטא, עלול להיות איטי. | תהליך מהיר ויעיל יותר, בסיוע ה-BSP. |
-| **עלויות** | תשלום ישיר למטא לפי שיחה. אין עלויות תיווך. | תשלום למטא + עמלה או דמי מנוי ל-BSP. |
-
-**המלצה:** עבור רוב המשתמשים, ובמיוחד אלו שאינם מפתחים מנוסים או ארגונים גדולים, **השימוש ב-BSP הוא הדרך המומלצת, הבטוחה והיעילה ביותר**. למרות העלות הנוספת, הליווי המקצועי, התמיכה והפחתת הסיכון לחסימה הופכים את ההשקעה למשתלמת ביותר בטווח הארוך.
-
-## אסטרטגיית "חימום" חשבון: המפתח להצלחה
-
-אחד הגורמים הקריטיים ביותר להצלחה ולמניעת חסימה הוא תהליך ה"חימום" (Warm-Up) של מספר טלפון חדש. חשבון חדש נמצא בסיכון גבוה מכיוון שמערכות הניטור של וואטסאפ עדיין לא "מכירות" אותו ואין לו "דירוג אמון" (Trust Score) חיובי. שליחת הודעות רבות ביום הראשון היא הטעות החמורה ביותר שניתן לעשות, ועלולה להוביל לחסימה כמעט מיידית [3].
-
-תהליך החימום הוא תהליך הדרגתי של בניית אמון מול המערכת, המדגים דפוסי שימוש לגיטימיים.
-
-### רשימת משימות לפני ההתחלה (Pre-Flight Checklist)
-
-לפני שליחת ההודעה הראשונה, יש לבצע את הפעולות הבאות כדי לבסס פרופיל אמין:
-
-1.  **השלמת פרופיל העסק:** יש למלא את כל הפרטים בפרופיל ה-WhatsApp Business, כולל שם העסק, אתר אינטרנט, שעות פעילות וכתובת.
-2.  **אימות העסק (Facebook Business Verification):** תהליך זה חיוני ומגביר משמעותית את אמינות החשבון. יש להשלים אותו דרך ה-Meta Business Manager.
-3.  **יצירת רשימת אנשי קשר ראשונית:** יש להכין רשימה קטנה (10-20) של חברים, קולגות או לקוחות קיימים שהסכימו לקבל הודעות ולהשיב עליהן. המטרה היא לייצר שיחות דו-כיווניות.
-
-### תוכנית חימום הדרגתית
-
-יש ליישם תוכנית שליחה הדרגתית ומבוקרת. המטרה היא להגדיל את כמות ההודעות לאט ובאופן עקבי, תוך שמירה על דירוג איכות (Quality Rating) גבוה.
-
-| שלב | ימים | פעולות יומיות | מטרה |
-| :--- | :--- | :--- | :--- |
-| **שלב 1: בניית אמון בסיסי** | 1-7 | שליחת 10-20 הודעות ביום, *אך ורק* לרשימת החברים הראשונית. | יצירת שיחות דו-כיווניות וקבלת תשובות. |
-| **שלב 2: התרחבות מבוקרת** | 8-15 | הגדלה הדרגתית ל-30-50 הודעות ביום ללקוחות אמיתיים שנתנו הסכמה (Opt-in). | התמקדות בהודעות שירותיות (עדכוני הזמנה, משלוח) ושמירה על דירוג "ירוק". |
-| **שלב 3: הכנה לעליית שלב** | 16-21 | הגדלה ל-80-100 הודעות ביום, תוך שמירה על איכות גבוהה. | התכוננות למעבר לדרגת השליחה הבאה (Tier 2). |
-| **שלב 4: צמיחה בטוחה** | 22+ | לאחר המעבר ל-Tier 2 (עד 10,000 הודעות ביום), יש להמשיך להגדיל את הכמות בהדרגה (לא יותר מ-20% בכל פעם). | ביסוס החשבון כחשבון אמין ואיכותי. |
-
-**חשוב:** אין לקפוץ באופן מיידי למגבלת השליחה המותרת בדרגה החדשה. יש להמשיך בצמיחה איטית ומבוקרת [3].
-
-## שיטות עבודה מומלצות וטעויות נפוצות שיש להימנע מהן
-
-מעבר לתהליך החימום, ישנם כללים ושיטות עבודה שחובה לאמץ כדי לשמור על תקינות החשבון לאורך זמן.
-
-### 7 הטעויות הנפוצות ביותר שמובילות לחסימה
-
-1.  **שליחת כמות גדולה של הודעות ביום הראשון (Bulk Blast):** כאמור, זוהי הטעות החמורה ביותר.
-2.  **היעדר אפשרות להסרה (Opt-Out):** חובה לכלול בכל הודעה שיווקית אפשרות ברורה ופשוטה להסרה מרשימת התפוצה (למשל, "להסרה השב 'הסר'"). אי מתן אפשרות זו מהווה הפרה חמורה של המדיניות [3].
-3.  **שליחה לאנשי קשר שלא אישרו קבלת הודעות (No Opt-In):** כל משתמש חייב לתת את הסכמתו המפורשת לקבלת הודעות. שליחה ללא הסכמה היא ספאם.
-4.  **התעלמות מתשובות משתמשים:** חשבון שלא מגיב לפניות נכנסות נתפס על ידי המערכת כחשבון בוט-לייק ודירוג האמון שלו נפגע.
-5.  **שימוש בקישורים חשודים:** יש להימנע משימוש במקצרי כתובות (URL shorteners) לא מוכרים או בקישורים שעלולים להיות קשורים לספאם.
-6.  **שימוש בבוטים לא רשמיים:** יש להשתמש אך ורק בכלים רשמיים או בפתרונות של BSPs מאושרים. כל ניסיון לאוטומציה באמצעות כלים לא רשמיים יזוהה ויוביל לחסימה.
-7.  **שימוש בתבניות הודעה באיכות נמוכה:** תבניות (Templates) צריכות להיות ברורות, מנוסחות היטב וללא שגיאות. דחייה חוזרת של תבניות פוגעת בדירוג החשבון.
-
-### שיטות עבודה מומלצות (Best Practices)
-
-*   **קבלת הסכמה (Opt-In) ברורה:** המשתמש צריך לצפות את סוג ההודעות שיקבל. מומלץ לקבל הסכמה נפרדת עבור קטגוריות שונות של הודעות (למשל, עדכוני הזמנה, מבצעים, המלצות מוצר) [4].
-*   **שמירה על דירוג איכות גבוה:** יש לנטר באופן קבוע את דירוג האיכות (Quality Rating) של המספר ב-WhatsApp Manager. אם הדירוג יורד ל"צהוב" (בינוני) או "אדום" (נמוך), יש להפחית מיד את קצב השליחה ולנתח את הסיבות לירידה.
-*   **מתן ערך למשתמש:** ההודעות צריכות להיות רלוונטיות ובעלות ערך למקבל. הודעות שיווקיות צריכות להיות מותאמות אישית ככל האפשר.
-*   **זמינות נציג אנושי:** גם בעת שימוש באוטומציה, חובה לספק למשתמשים דרך ברורה ומהירה להגיע לנציג אנושי (למשל, צ'אט, טלפון, אימייל) [4].
-
-## סיכום והמלצות
-
-הדרך הבטוחה והיעילה ביותר להשתמש ב-WhatsApp Business API, בין אם למטרות עסקיות או פרטיות, היא באמצעות גישה מתודית, זהירה ומבוססת כללים. הסיכון לחסימת חשבון הוא אמיתי ועלול להיות בעל השלכות משמעותיות, אך ניתן למזער אותו באופן דרמטי על ידי אימוץ שיטות העבודה המומלצות.
-
-**המלצות מרכזיות:**
-
-1.  **העדיפו שימוש ב-BSP:** במיוחד עבור משתמשים חדשים, הליווי והתמיכה של ספק רשמי הם נכס יקר ערך.
-2.  **יישמו תהליך חימום קפדני:** אל תדלגו על שלבים ואל תנסו להאיץ את התהליך. סבלנות בשלב זה תשתלם בטווח הארוך.
-3.  **כבדו את המשתמש:** שלחו הודעות רק למי שאישר, ספקו ערך, והציעו דרך קלה להסרה.
-4.  **נטרו ולמדו:** עקבו אחר דירוג האיכות, נתחו את ביצועי ההודעות שלכם, והתאימו את האסטרטגיה שלכם בהתאם.
-
-על ידי ביצוע הנחיות אלו, תוכלו לרתום את העוצמה של WhatsApp Business API לצמיחה והצלחה, תוך שמירה על ערוץ תקשורת יציב ואמין עם הלקוחות והמשתמשים שלכם.
-
-## מקורות מידע וקישורים שימושיים
-
-[1] [WhatsApp Business Platform policy and spam enforcement](https://developers.facebook.com/documentation/business-messaging/whatsapp/policy-enforcement) - התיעוד הרשמי של מטא בנושא מדיניות ואכיפה.
-
-[2] [I Got Banned from WhatsApp API. Here’s Why (and How to Avoid It)](https://sitarzkonrad.medium.com/how-to-not-get-banned-on-whatsapp-business-api-bbdd56be86a5) - מאמר המתאר חוויה אישית של מפתח עם ה-API הישיר.
-
-[3] [Warm-Up Strategy for New WhatsApp Business Platform Accounts](https://www.wuseller.com/blog/warm-up-strategy-for-new-whatsapp-business-platform-accounts-anti-ban-tactics) - מדריך מפורט לאסטרטגיית חימום חשבון.
-
-[4] [WhatsApp Business Messaging Policy](https://www.whatsapp.com/legal/business-policy/) - מדיניות השימוש הרשמית של WhatsApp Business.
-
 ---
 
-## License & Attribution
+# 🇺🇸 English
 
-Developed by **Aviel.AI** - כל הזכויות שמורות © 2026
+# Comprehensive Guide to Using WhatsApp Business API: How to Avoid Account Bans
 
-This guide is provided as an educational resource to help businesses and individuals safely integrate WhatsApp Business API while maintaining compliance with Meta's policies and best practices.
+## Introduction
 
+This guide is designed to provide developers, business owners, and private users with the knowledge and tools required for a safe and efficient connection to the WhatsApp Business API. The central goal is to enable message sending, whether for marketing, service, or personal communication purposes, while minimizing the risk of account blocking. Improper use of the platform can lead to severe restrictions, and in extreme cases, even permanent blocking, which can seriously harm business or personal activities [1].
+
+The guide will cover key risks, present the differences between direct use of Meta's (Facebook) API versus working with Business Solution Providers (BSPs), detail a new account "warm-up" process, and provide guidelines and best practices for maintaining account health over time.
+
+## Key Risks: Why Do Accounts Get Blocked?
+
+The WhatsApp Business platform is carefully managed by Meta to ensure a high user experience and fight spam. WhatsApp's automated system regularly monitors account activity and flags accounts that violate usage policies. Understanding the common reasons for blocking is the first step in preventing it.
+
+### Common Policy Violations
+
+According to Meta's official documentation, these are some of the most common violations that lead to account restrictions [1]:
+
+*   **Sending Spam:** Sending unwanted messages or messages too frequently.
+*   **Incorrect Classification of Message Templates:** Using a marketing template for customer service purposes, or vice versa.
+*   **Prohibited Content:** Promoting or selling products and services from restricted categories such as adult content, alcohol and tobacco, drugs, gambling, and unsafe supplements.
+*   **Negative User Feedback:** If many users block your number or report it as spam, this will severely damage the account's "Quality Rating."
+
+### Gradual Enforcement
+
+WhatsApp's enforcement system operates gradually. Usually, an account will not be permanently blocked immediately (unless it's a particularly serious violation). The process includes several stages:
+
+| Enforcement Stage | Restriction Duration | Nature of Restriction |
+| :--- | :--- | :--- |
+| **Warning** | - | Receiving a notification about a specific policy violation. |
+| **Initial Restriction** | 1-3 days | Blocking the ability to send template messages (marketing, service, authentication). |
+| **Second Restriction** | 5-7 days | Blocking the ability to send *any* type of message. |
+| **Account Lock** | Indefinite | Full blocking of message sending, can only be removed through a successful appeal. |
+| **Permanent Disabling** | Permanent | The account is permanently removed from the platform. |
+
+---
 
 ## 🌍 Languages & Localization
 
 This guide is available in multiple languages:
 
-- **עברית (Hebrew)** - מדריך מלא בעברית עם תמיכה RTL מלאה
-- **English** - Complete guide in English with full LTR support
-- **Auto-Update System** - Content is automatically updated with the latest WhatsApp policies and best practices
-
-### Language Support Details
-
-- **Hebrew (עברית)**: Full RTL (Right-to-Left) support with proper text direction, accessibility features, and native Hebrew terminology
-- **English**: Standard LTR (Left-to-Right) support with comprehensive documentation
-- **Automatic Translation**: Key sections are automatically translated and updated when WhatsApp policies change
+- **עברית (Hebrew)** - Full guide in Hebrew with full RTL support.
+- **English** - Complete guide in English with full LTR support.
 
 ---
 
@@ -170,60 +95,4 @@ This guide is available in multiple languages:
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### MIT License Summary
-
-- ✅ **Free to use** - You can use this guide for personal and commercial purposes
-- ✅ **Free to modify** - You can modify and adapt the content to your needs
-- ✅ **Free to distribute** - You can share this guide with others
-- ✅ **Attribution required** - Please credit Aviel.AI when using or sharing this guide
-- ✅ **No warranty** - This guide is provided "as is" without any warranty
-
-### How to Share
-
-When sharing this guide, please include the following attribution:
-
-```
-Guide: WhatsApp API Safe Integration Guide
-Author: Aviel.AI
-License: MIT
-Repository: https://github.com/Avielzi/whatsapp-api-guide
-```
-
----
-
-## 🔄 Auto-Update System
-
-This repository includes an automatic update system that:
-
-- ✅ Checks for WhatsApp policy updates weekly
-- ✅ Updates best practices based on community feedback
-- ✅ Maintains translations in Hebrew and English
-- ✅ Logs all changes for transparency
-- ✅ Notifies contributors of important updates
-
-### Contributing
-
-We welcome contributions! If you have:
-
-- **New insights** about WhatsApp API safety
-- **Translations** to other languages
-- **Bug reports** or corrections
-- **Success stories** to share
-
-Please open an issue or submit a pull request on [GitHub](https://github.com/Avielzi/whatsapp-api-guide).
-
----
-
-## 📞 Support & Contact
-
-For questions or support:
-
-- 📧 **GitHub Issues**: [Report an issue](https://github.com/Avielzi/whatsapp-api-guide/issues)
-- 💬 **Discussions**: [Join the discussion](https://github.com/Avielzi/whatsapp-api-guide/discussions)
-- 🌐 **Website**: [Interactive Guide](https://whatsapp-api-guide.manus.space)
-
----
-
-**Last Updated**: January 24, 2026  
-**Version**: 1.0.0  
-**Maintained by**: Aviel.AI
+Developed by **Aviel.AI** - All Rights Reserved © 2026
